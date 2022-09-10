@@ -1,0 +1,9 @@
+senha = ''
+while True:
+    senha = str(input('Insira a senha: '))
+    if senha == 'Senha123@':
+        print('Senha correta')
+        break
+    
+    else:
+        print('Senha incorreta')
